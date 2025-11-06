@@ -12,4 +12,5 @@ type Task struct {
 	ID        int    `json:"id"`
 	Titulo    string `json:"titulo"`
 	Descricao string `json:"descricao,omitempty"`
-	Status    string `json:"status"`    
+	Status    string `json:"status"`
+}
